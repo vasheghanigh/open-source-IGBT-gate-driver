@@ -625,7 +625,7 @@ F 3 "~" H 2065 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GateDriver:miw06-24s24 U2
+L IGBT-DRIVER-rescue:miw06-24s24-GateDriver U2
 U 1 1 619584B7
 P 2605 1025
 F 0 "U2" H 2855 1140 50  0000 C CNN
@@ -636,7 +636,7 @@ F 3 "" H 2605 1025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GateDriver:miw06-24s24 U1
+L IGBT-DRIVER-rescue:miw06-24s24-GateDriver U1
 U 1 1 61959EFB
 P 2290 3585
 F 0 "U1" H 2540 3700 50  0000 C CNN
@@ -787,7 +787,7 @@ Connection ~ 3160 4175
 Wire Wire Line
 	3160 4175 3335 4175
 $Comp
-L koalaLogo:LOGO G1
+L IGBT-DRIVER-rescue:LOGO-koalaLogo G1
 U 1 1 619E54B4
 P 1360 5435
 F 0 "G1" H 1360 4965 60  0001 C CNN
